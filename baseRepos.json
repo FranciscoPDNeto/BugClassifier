@@ -1,0 +1,54 @@
+{
+    "javascript": [
+        {
+            "vuejs/vue": ["bug", "feature request"]
+        },
+        {
+            "facebook/react": ["Type: Bug", "Type: Feature Request"]
+        },
+        {
+            "nodejs/node": ["confirmed-bug", "feature request"]
+        },
+        {
+            "angular/angular.js": ["type: bug", "type: feature"]
+        },
+        {
+            "axios/axios": ["type:bug", "type:feature"]
+        }
+    ],
+    "java": [
+        {
+            "elastic/elasticsearch": [">bug", ">feature"]
+        }
+    ],
+    "python": [
+        {
+            "keras-team/keras": ["type:bug/performance", "type:feature"]
+        },
+        {
+            "scikit-learn/scikit-learn": ["Bug", "New Feature"]
+        }
+    ],
+    "go": [
+        {
+            "ethereum/go-ethereum": ["type:bug", "type:feature"]
+        },
+        {
+            "cockroachdb/cockroach": ["C-bug", "C-wishlist"]
+        },
+        {
+            "github/hub": ["bug", "feature"]
+        }
+    ],
+    "cpp": [
+        {
+            "tensorflow/tensorflow": ["type:bug/performance", "type:feature"]
+        },
+        {
+            "bitcoin/bitcoin": ["Bug", "Feature"]
+        },
+        {
+            "microsoft/CNTK": ["bug", "feature request"]
+        }
+    ]
+}
