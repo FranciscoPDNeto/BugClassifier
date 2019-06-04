@@ -26,7 +26,6 @@ with open('baseRepos.json') as baseReposFile:
                 isBugIssues = not isBugIssues
     
 with open('baseIssues.json', 'w') as baseIssues:
-    json.dump({'bug': bugIssues}, baseIssues)
-    json.dump({'feature':featureIssues}, baseIssues)
+    json.dump({'bug': bugIssues, 'feature': featureIssues}, baseIssues)
     print(len(bugIssues))
     print(len(featureIssues))
