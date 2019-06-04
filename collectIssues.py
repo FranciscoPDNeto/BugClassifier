@@ -18,11 +18,15 @@ with open('baseRepos.json') as baseReposFile:
                 label = repo.get_label(labelName)
                 issues = repo.get_issues(labels=[label])
                 for issue in issues:
+                    issueDict = {issue.title: issue.body}
                     if isBugIssues:
-                        bugIssues.append(issue)
+                        bugIssues.append(issueDict)
                     else:
-                        featureIssues.append(issue)
+                        featureIssues.append(issueDict)
                 isBugIssues = not isBugIssues
     
+with open('baseIssues.json', 'w') as baseIssues:
+    json.dump({'bug': bugIssues}, baseIssues)
+    json.dump({'feature':featureIssues}, baseIssues)
     print(len(bugIssues))
     print(len(featureIssues))
