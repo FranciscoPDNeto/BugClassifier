@@ -18,7 +18,7 @@ with open('baseRepos.json') as baseReposFile:
                 label = repo.get_label(labelName)
                 issues = repo.get_issues(labels=[label])
                 for issue in issues:
-                    issueDict = {issue.title: issue.body}
+                    issueDict = issue.title + '. ' + issue.body
                     if isBugIssues:
                         bugIssues.append(issueDict)
                     else:
