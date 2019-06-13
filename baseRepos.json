@@ -14,6 +14,12 @@
         },
         {
             "axios/axios": ["type:bug", "type:feature"]
+        },
+        {
+            "twbs/bootstrap": ["browser bug", "feature"]
+        },
+        {
+            "jquery/jquery": ["Bug", "Feature"]
         }
     ],
     "java": [
@@ -27,6 +33,9 @@
         },
         {
             "scikit-learn/scikit-learn": ["Bug", "New Feature"]
+        },
+        {
+            "tensorflow/models": ["type:bug/performance", "type:feature"]
         }
     ],
     "go": [
@@ -38,6 +47,9 @@
         },
         {
             "github/hub": ["bug", "feature"]
+        },
+        {
+            "kubernetes/kubernetes": ["kind/bug", "kind/feature"]
         }
     ],
     "cpp": [
@@ -49,6 +61,9 @@
         },
         {
             "microsoft/CNTK": ["bug", "feature request"]
+        },
+        {
+            "opencv/opencv": ["bug", "feature"]
         }
     ]
 }
